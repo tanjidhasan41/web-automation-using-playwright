@@ -1,0 +1,8 @@
+{
+  firstName: 'Conrad',
+  lastName: 'Greenfelder',
+  email: 'thsqa41+4723@gmail.com',
+  password: '1234',
+  phoneNumber: '01701040618',
+  address: 'Plantation'
+}

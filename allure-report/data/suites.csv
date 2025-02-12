@@ -1,0 +1,6 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"","5711","User can upload photo successfully","chromium","Wed Feb 12 22:25:31 BDT 2025","passed","Wed Feb 12 22:25:36 BDT 2025","","3ProfileTestRunner.spec.js","",""
+"","2812","User can login successfully","chromium","Wed Feb 12 22:25:28 BDT 2025","passed","Wed Feb 12 22:25:31 BDT 2025","","2LoginTestRunner.spec.js","",""
+"","4675","User can registration successfully","chromium","Wed Feb 12 22:25:22 BDT 2025","passed","Wed Feb 12 22:25:27 BDT 2025","","1RegistrationTestRunner.spec.js","",""
+"","19605","User can reset password successfully","chromium","Wed Feb 12 22:25:36 BDT 2025","passed","Wed Feb 12 22:25:56 BDT 2025","","4ResetPasswordTestRunner.spec.js","",""
+"","1305","User can login successfully using new password","chromium","Wed Feb 12 22:25:56 BDT 2025","passed","Wed Feb 12 22:25:57 BDT 2025","","5LoginWithNewPassTestRunner.spec.js","",""
