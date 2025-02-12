@@ -1,2 +1,0 @@
-Mail ID fetched: 194fafb00cd96017
-Mail Body: Click on the following link to reset your password: https://dailyfinance.roadtocareer.net/reset-password?token=62b1f9f346b345ba43a51a06357cb9e33fa7071f25852b901fd51ee72a0b217f
