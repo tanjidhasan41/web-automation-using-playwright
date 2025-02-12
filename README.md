@@ -66,6 +66,7 @@ npx playwright test tests/<test-file-name>.spec.js
 ## Test Report & Documentation
 - **Negative Test Cases:**
 
+https://docs.google.com/spreadsheets/d/1DoJlULIBjlhsh0IDqlJhaE_nHdesnNsf9A4BreD23as/edit?usp=sharing
   
 - **Automation Process Recording:**
 
