@@ -5,7 +5,6 @@ import jsonData from "../utils/userData.json";
 test("User can login successfully using new password", async ({ page }) => {
 
     const newUser = jsonData[jsonData.length - 1];
-    //const updatedPassword = jsonData[jsonData.length - 1];
 
     await page.goto("/");
     const login = new LoginPage(page);

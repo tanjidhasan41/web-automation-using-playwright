@@ -16,5 +16,4 @@ test("User can upload photo successfully", async ({ page }) => {
     const filePath = "F:/Road To SDET/JS/Playwright_Project/utils/image.jpg";
     await upload.uploadImage(filePath);
 
-
 })

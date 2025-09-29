@@ -43,7 +43,6 @@ class LoginPage {
 
         await this.btnAddCost.click();
         await this.txtItemName.fill(item2.itemName);
-        //await this.btnquantity.click();
         await this.txtamount.fill(item2.amount);
         await this.month.selectOption({ label: "February" });
         await this.remarks.fill(item2.remarks);
