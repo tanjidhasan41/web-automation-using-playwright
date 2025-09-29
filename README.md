@@ -64,7 +64,4 @@ https://github.com/user-attachments/assets/75aaddda-8873-4fc7-ba82-e3698ef3b9d2
 ![image](https://github.com/user-attachments/assets/a930e1c5-8067-48df-b413-c1e1c7fa5b04)
 
 
----
-
-This repository is maintained for testing and automation purposes. Feel free to contribute or report issues!
 
