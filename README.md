@@ -31,9 +31,8 @@ Before running the tests, ensure you have the following installed:
 ## What I Have Done
 - Implemented Playwright test cases to cover the registration, login, item addition, profile update, password reset, and re-login functionalities.
 - Added assertions to validate toast messages and email confirmation.
-- Included necessary negative test cases to check for improper inputs and error handling.
 - Configured `.gitignore` to exclude unnecessary files and folders (`node_modules`, `.env`, etc.).
-- Generated test reports using **Allure/Mochawesome**.
+- Generated test reports using **Allure**.
 - Recorded the automation process and included it in the documentation.
 
 ## How to Run the Tests
@@ -42,20 +41,6 @@ To execute the Playwright test cases, follow these steps:
 ### Running All Tests
 ```sh
 npx playwright test
-```
-
-### Running Tests with Allure Report
-```sh
-npx playwright test --reporter=line,allure
-```
-To view the Allure report:
-```sh
-npx allure serve allure-results
-```
-
-### Running Tests with Mochawesome Report
-```sh
-npx playwright test --reporter=mochawesome
 ```
 
 ### Running Specific Test
