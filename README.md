@@ -2,7 +2,7 @@
 
 ## Project Description
 This project automates the testing of the [DailyFinance](https://dailyfinance.roadtocareer.net/) web application using Playwright JS. The test suite covers the following functionalities:
-- User registration and validation of confirmation email & toast message
+- User registration and validation of toast message
 - Login and adding two random items to the list
 - Profile photo upload and logout
 - Password reset process and successful login validation
@@ -30,7 +30,7 @@ Before running the tests, ensure you have the following installed:
 
 ## What I Have Done
 - Implemented Playwright test cases to cover the registration, login, item addition, profile update, password reset, and re-login functionalities.
-- Added assertions to validate toast messages and email confirmation.
+- Added assertions to validate toast messages.
 - Configured `.gitignore` to exclude unnecessary files and folders (`node_modules`, `.env`, etc.).
 - Generated test reports using **Allure**.
 - Recorded the automation process and included it in the documentation.
@@ -49,7 +49,7 @@ npx playwright test tests/<test-file-name>.spec.js
 ```
 
 ## Test Report & Documentation
-- **Negative Test Cases:**
+- **Test Cases:**
 
 https://docs.google.com/spreadsheets/d/1DoJlULIBjlhsh0IDqlJhaE_nHdesnNsf9A4BreD23as/edit?usp=sharing
   
