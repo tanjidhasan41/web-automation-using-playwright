@@ -21,7 +21,7 @@ export async function ReadGmail() {
         const mailId = data.messages[0].id;
         console.log('Mail ID fetched:', mailId);
 
-        // Update .env file
+        //Update .env file
         updateEnvVariable('MAIL_ID', mailId);
 
         return mailId;
@@ -33,7 +33,7 @@ export async function ReadGmail() {
 
 export async function readMail(mailId) {
     if (!mailId) {
-        console.error('Mail ID is not set. Run getGmailList() first.');
+        console.error('Mail ID is not set.');
         return null;
     }
 
@@ -50,7 +50,7 @@ export async function readMail(mailId) {
         const mailBody = data.snippet;
         console.log('Mail Body:', mailBody);
 
-        // Update .env file
+        //Update .env file
         updateEnvVariable('MAIL_BODY', mailBody);
 
         return mailBody;
@@ -60,7 +60,7 @@ export async function readMail(mailId) {
     }
 }
 
-// Function to update .env file dynamically
+//Update .env file dynamically
 function updateEnvVariable(key, value) {
     const envPath = '.env';
     let envVars = fs.readFileSync(envPath, 'utf8').split('\n');
